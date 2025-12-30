@@ -1,0 +1,124 @@
+/*--------------------------- Fontes usadas ---------------------------*/
+
+@font-face {
+    font-family: Ultrakill;
+    src: url(VCR_OSD_MONO_1.001.ttf);
+}
+
+/*---------------------------------------------------------------------*/
+
+body {
+    background-color: rgb(8, 8, 8);
+    padding: 0;
+    margin: 0;
+    font-family: Ultrakill;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:50px;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 35vh;
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url(imagens/ultrakillgameplay.gif);
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px) brightness(0.5);
+    transform: scale(1.1);
+    z-index: 0;
+}
+
+header h1 {
+    position: relative;
+    font-size: 10vh;
+    color: red;
+    z-index: 1;
+}
+
+#botões {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    gap: 60px;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 100%;
+}
+
+.card-link {
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
+
+.card1 {
+    height: 50px;
+    width: 180px;
+    border-radius: 10px;
+    outline: 3px solid white;
+    outline-offset: 7px;
+}
+
+.card2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 180px;
+    border-radius: 10px;
+    outline: 3px solid white;
+}
+
+/* Facilita o efeito de vazio nas bordas criando uma outline */
+.shell {
+    display: inline-block;
+    outline: 3px solid white;
+    outline-offset: 7px;
+}
+
+#inimigos {
+    height: 60vh;
+    width: 6vw;
+    outline: 3px solid white;
+}
+
+#detalhes-inimigos {
+    height: 60vh;
+    width: 70vw;
+    outline: 3px solid white;
+}
+
+footer {
+    margin-top: 10vh;
+    height: auto;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgb(14, 14, 14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+}
+
+footer p {
+    filter: opacity(0.5);
+}
