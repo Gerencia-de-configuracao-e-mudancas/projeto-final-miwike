@@ -1,0 +1,14 @@
+[
+    {
+        "nome": "filth",
+        "icon": "CSS/imagens/filthicon.png",
+        "conteudo": "Conteudo vai aqui filth",
+        "tipodeinimigo": "menor"
+    },
+    {
+        "nome": "stray",
+        "icon": "CSS/imagens/strayicon.png",
+        "conteudo": "Conteudo vai aqui stray",
+        "tipodeinimigo": "menor"
+    }
+]
