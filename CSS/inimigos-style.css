@@ -1,12 +1,3 @@
-/*--------------------------- Fontes usadas ---------------------------*/
-
-@font-face {
-    font-family: Ultrakill;
-    src: url(VCR_OSD_MONO_1.001.ttf);
-}
-
-/*---------------------------------------------------------------------*/
-
 body {
     background-color: rgb(8, 8, 8);
     padding: 0;
@@ -93,16 +84,45 @@ header h1 {
     outline-offset: 7px;
 }
 
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent; /* remove a caixa */
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
 #inimigos {
     height: 60vh;
     width: 6vw;
     outline: 3px solid white;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3vh;
+    overflow-y: scroll;
 }
 
 #detalhes-inimigos {
     height: 60vh;
     width: 70vw;
     outline: 3px solid white;
+}
+
+.enemy-icon {
+    all: unset;
+    display: block;
+    cursor: pointer;
+    width: 4vw;
+    aspect-ratio: 1 / 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 footer {
