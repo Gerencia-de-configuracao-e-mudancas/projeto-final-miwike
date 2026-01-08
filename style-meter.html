@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ultrawiki</title>
     <link rel="stylesheet" href="CSS/style-meter.css">
+    <link rel="stylesheet" href="CSS/modo-dislexico.css">
 </head>
 <body>
         <header>
             <h1>Ultra<span style="color:white;">Wiki</span></h1>
+            <button type="button" id="modo_dislexico_toggle">Modo Disléxico: <span id="on_or_off"></span></button>
         </header>
 
         <div id="botões">
@@ -118,6 +120,7 @@
 
         <div class="shell" id="style-bonuses-box">
             <input type="text" id="barra-de-pesquisa" placeholder="Procure por um modificador de estilo específico...">
+
             <div id="style-bonuses" class="custom-scrollbar">
                 <div class="stylebonus">
                     <div class="name">
@@ -128,13 +131,17 @@
                     </div>
                 </div>
             </div>
+
+
         </div>
 
 
-
+        
         <footer>
             <p>Este site é uma obra feita por fãs, para fãs, desenvolvido por um estudante do IFPB – Campus Cajazeiras. Ele não possui qualquer afiliação oficial com a New Blood Interactive ou com os desenvolvedores de ULTRAKILL. Todo o conteúdo aqui apresentado tem caráter informativo e celebrativo, funcionando como uma wiki criada pela comunidade. ULTRAKILL e seus respectivos elementos são marcas registradas de seus criadores.</p>
             <p>This site is a fan-made project, created by fans for fans, developed by a student from IFPB – Campus Cajazeiras. It is not officially affiliated with New Blood Interactive or the developers of ULTRAKILL. All content presented here is for informational and celebratory purposes, serving as a community-created wiki. ULTRAKILL and its respective elements are trademarks of their creators.</p>
         </footer>
+        <script src="Scripts/modo-disléxico.js">
+        </script><script src="Scripts/style-meter.js"></script>
 </body>
 </html>
