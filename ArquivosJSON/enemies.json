@@ -3,12 +3,42 @@
         "nome": "filth",
         "icon": "CSS/imagens/filthicon.png",
         "conteudo": "Conteudo vai aqui filth",
-        "tipodeinimigo": "menor"
+        "tipodeinimigo": "Husk"
     },
     {
         "nome": "stray",
         "icon": "CSS/imagens/strayicon.png",
         "conteudo": "Conteudo vai aqui stray",
-        "tipodeinimigo": "menor"
+        "tipodeinimigo": "Husk"
+    },
+    {
+        "nome": "malicious face",
+        "icon": "CSS/imagens/maliciousfaceicon.png",
+        "conteudo": "Conteudo vai aqui malicious",
+        "tipodeinimigo": "Demônio"
+    },
+    {
+        "nome": "swordmachine",
+        "icon": "CSS/imagens/swordmachineicon.png",
+        "conteudo": "Conteudo vai aqui swordmachine",
+        "tipodeinimigo": "Máquina"
+    },
+    {
+        "nome": "virtue",
+        "icon": "CSS/imagens/virtueicon.png",
+        "conteudo": "Conteudo vai aqui virtue",
+        "tipodeinimigo": "Anjo"
+    },
+    {
+        "nome": "v2",
+        "icon": "CSS/imagens/v2icon.png",
+        "conteudo": "<img src='CSS/imagens/v2.png' style='float:right; height: 30vh'><h1>V2 - Primeiro Encontro</h1>\n<p>V2 é uma máquina suprema encontrada durante a excursão de V1 no final da primeira camada <span style='color:red'>(1-4)</span>. Eles são o primeiro boss realmente desafiador que o jogador encontra em sua jornada, utilizando um set de armas e até mesmo movimentos extremamente similar ao do jogador, o seu tamanho pequeno e imprevisibilidade o torna um inimigo formidável. V2 está quase no mesmo nível que o jogador em termos de mobilidade; ele pode dar dash, pular nas paredes e deslizar assim como o jogador, tornando-se um alvo difícil de acertar. Além disso, em seu primeiro encontro ele possui um Revólver Piercer e uma Escopeta Core Eject próprios, usando-os para alternar entre combate de curta e longa distância. Caso acerte uma das moedas do jogador, a moeda pode ricochetear o disparo de volta contra ele. Felizmente, como V2 não pode absorver sangue diretamente como V1, qualquer dano causado permanecerá até que a luta contra o chefe seja reiniciada. Os ataques de V2 consistem em armas com as quais o jogador já pode estar familiarizado, pois fazem parte do próprio arsenal do jogador. Com seu Revólver Piercer, ele pode disparar um combo de três tiros, precedido por um flash amarelo no cano da arma; com o tempo certo, um desses tiros pode ser aparado. Além disso, ele também pode realizar um único disparo carregado semelhante ao feixe do Revólver Piercer, indicado por um som de carregamento e uma luz azul brilhante vinda da arma; esse feixe pode ser aparado da mesma forma que os tiros normais, e V2 usará exclusivamente esse ataque se o jogador estiver mais distante. Junto do revólver, V2 também tem acesso a uma Escopeta Core Eject, que pode usar para disparar projéteis de perto contra o jogador, indicados por um som de chiado e um flash laranja; os projéteis da escopeta podem ser aparados.<br><br>V2 também pode decidir lançar um núcleo explosivo da escopeta, assim como a própria Escopeta Core Eject do jogador; esse ataque não possui um indicador visual, mas vem acompanhado de um som de motor antes de disparar o núcleo, que também pode ser atingido com qualquer arma hitscan para fazê-lo explodir.<br>V2 possui quatro padrões de movimento que utiliza dependendo da distância em relação ao jogador, e cada um é indicado pela cor de suas asas:<br><br><br><span style='color:yellow;'>Asas amarelas</span> significam que V2 escolherá uma direção para correr até colidir com algo, momento em que escolherá uma nova direção.<br><br><span style='color:blue;'>Asas azuis</span> significam que V2 tentará circular o jogador em movimento lateral enquanto se aproxima lentamente.<br><br><span style='color:red;'>Asas vermelhas</span> significam que V2 tentará avançar agressivamente contra o jogador, usando deslizes para reduzir a distância; ao alcançar uma distância mínima específica, ele passará a circular o jogador de perto até que o jogador recue ou até que o padrão de movimento mude novamente. Este é o único padrão de movimento que V2 utiliza quando está Enfurecido.<br><br><span style='color:green;'>Asas verdes</span> significam que V2 tentará rapidamente se afastar do jogador, ao custo de reduzir drasticamente sua velocidade de ataque; esse padrão é ativado quando o jogador permanece muito próximo de V2 por tempo demais, mas não será acionado se o jogador estiver com menos de 33 de vida.<br><br>Além disso, a velocidade de movimento de V2 possui vários possíveis efeitos negativos para facilitar levemente a recuperação de vida a partir de seu sangue:<br><br><br>O movimento no chão é 10% mais lento se o jogador tiver 33 de vida ou menos nas dificuldades Violent ou inferiores.<br><br>O movimento no chão é 10% mais lento se o jogador estiver a até 10 unidades de V2 nas dificuldades Standard ou inferiores (acumula com o efeito anterior).<br><br>Os saltos são mais curtos se o jogador estiver a até 10 unidades nas dificuldades Standard ou inferiores, com uma redução adicional na altura do salto se o jogador tiver 33 de vida ou menos.<br><br>V2 não pode deslizar a curta distância e cancelará o deslize mais cedo se o jogador tiver 50 de vida ou menos nas dificuldades Standard ou inferiores.<br><br>A velocidade de movimento no chão e no ar é reduzida enquanto V2 estiver preso por uma broca do Railcannon Screwdriver.</p>",
+        "tipodeinimigo": "Boss"
+    },
+    {
+        "nome": "puppet",
+        "icon": "CSS/imagens/puppeticon.png",
+        "conteudo": "Conteudo vai aqui puppet",
+        "tipodeinimigo": "Outro"
     }
 ]
