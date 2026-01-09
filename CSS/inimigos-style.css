@@ -95,8 +95,18 @@ header h1 {
   border-radius: 10px;
 }
 
+#opcoesconfig {
+    height: 3vh;
+}
+
+#opcoes {
+    width: 6vw;
+    background-color: black;
+    color: white;
+}
+
 #inimigos {
-    height: 60vh;
+    height: 57vh;
     width: 6vw;
     outline: 3px solid white;
     padding: 15px;
@@ -112,6 +122,9 @@ header h1 {
     height: 60vh;
     width: 70vw;
     outline: 3px solid white;
+    overflow-y: scroll;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .enemy-icon {
