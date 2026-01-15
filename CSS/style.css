@@ -17,6 +17,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap:50px;
 }
 
 header {
@@ -145,4 +146,101 @@ footer p {
 
 .banner-content img {
     margin-left: auto;
+}
+
+.shell {
+    display: inline-block;
+    outline: 3px solid white;
+    outline-offset: 7px;
+}
+
+.banner-img {
+    max-height: 300px;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+
+    header {
+        height: 25vh;
+    }
+
+    header h1 {
+        font-size: 6vh;
+        text-align: center;
+    }
+
+    #botões {
+        gap: 25px;
+        margin: 5vh 0;
+    }
+
+    .card1,
+    .card2 {
+        width: 160px;
+        height: 45px;
+    }
+
+    .content-banner {
+        height: auto;
+        width: 90%;
+    }
+
+    .banner-content {
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        overflow-x: hidden;
+    }
+
+    #title {
+        font-size: 22px;
+    }
+
+    #content-paragraph {
+        width: 100%;
+        text-align: left;
+    }
+
+    .banner-content img {
+        margin: 0;
+        max-width: 80%;
+        height: auto;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 30px 20px;
+        gap: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    header h1 {
+        font-size: 8vh;
+    }
+
+    .content-banner {
+        height: auto;
+        width: 90%;
+    }
+
+    .banner-content {
+        padding-left: 40px;
+        padding-right: 40px;
+        gap: 40px;
+    }
+
+    .banner-content img {
+        max-width: 300px;
+        height: auto;
+    }
+
+    footer {
+        padding: 40px;
+        gap: 30px;
+    }
 }

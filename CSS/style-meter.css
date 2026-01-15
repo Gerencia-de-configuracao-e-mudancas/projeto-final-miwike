@@ -86,7 +86,6 @@ header h1 {
     outline: 3px solid white;
 }
 
-/* Facilita o efeito de vazio nas bordas criando uma outline */
 .shell {
     outline: 3px solid white;
     outline-offset: 7px;
@@ -223,4 +222,115 @@ footer {
 
 footer p {
     filter: opacity(0.5);
+}
+
+@media (max-width: 600px) {
+
+    header {
+        height: 25vh;
+    }
+
+    header h1 {
+        font-size: 6vh;
+        text-align: center;
+    }
+
+    #botões {
+        gap: 25px;
+        margin: 5vh 0;
+    }
+
+    #ranking {
+        width: 90%;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "rankinginfo"
+            "rankingtable";
+        gap: 20px;
+    }
+
+    #o-que-é-stylemeter {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #o-que-é-stylemeter-image {
+        float: none;
+        height: auto;
+        max-width: 80%;
+        margin-bottom: 20px;
+    }
+
+    #o-que-é-stylemeter-content {
+        padding: 20px;
+        text-align: left;
+    }
+
+    #style-bonuses-box {
+        width: 90%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    #barra-de-pesquisa {
+        width: 100%;
+        font-size: 16px;
+        height: 45px;
+    }
+
+    #style-bonuses {
+        height: auto;
+        max-height: none;
+        overflow-y: scroll;
+    }
+
+    .name {
+        border-right: 3px solid white;
+        border-bottom: none;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 30px 20px;
+        gap: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    header h1 {
+        font-size: 8vh;
+    }
+
+    #ranking {
+        width: 80%;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "rankinginfo"
+            "rankingtable";
+    }
+
+    #o-que-é-stylemeter {
+        width: 85%;
+    }
+
+    #o-que-é-stylemeter-image {
+        height: 35vh;
+    }
+
+    #style-bonuses {
+        height: 45vh;
+    }
+
+    .stylebonus {
+        grid-template-columns: 3fr 7fr;
+    }
+
+    footer {
+        padding: 40px;
+        gap: 30px;
+    }
 }

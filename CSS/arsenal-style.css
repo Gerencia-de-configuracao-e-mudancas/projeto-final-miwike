@@ -166,38 +166,7 @@ header h1 {
 
 .weapon-image img {
     height: 30vh;
-    rotate: 24deg;
 }
-
-.alternate {
-    grid-area: alternat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.alternate h2 {
-    color: yellow;
-}
-
-.alternate div:not(.shell){
-    width: 20vw;
-    height: 5vh;
-    outline: 3px solid yellow;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.alternate .shell {
-    outline-color: yellow;
-}
-
-
-
-
-
-
 
 footer {
     margin-top: 10vh;
@@ -215,4 +184,112 @@ footer {
 
 footer p {
     filter: opacity(0.5);
+}
+
+@media (max-width: 600px) {
+
+    .weapon-detail {
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    header {
+        height: 25vh;
+    }
+
+    header h1 {
+        font-size: 6vh;
+        text-align: center;
+    }
+
+    #botões {
+        gap: 25px;
+        margin: 5vh 0;
+    }
+
+    .container-arma {
+        margin-top: 60px;
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "weapontitle"
+            "variants"
+            "weaponimage"
+            "weapondetail";
+        gap: 30px;
+    }
+
+    .variants {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 0;
+    }
+
+    .variants div:not(.shell) {
+        width: 140px;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .weapon-title h1 {
+        font-size: 24px;
+    }
+
+    .weapon-image img {
+        height: auto;
+        max-width: 80%;
+    }
+
+    .weapon-detail {
+        padding: 20px;
+        max-height: none;
+        overflow: visible;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 30px 20px;
+        gap: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    header h1 {
+        font-size: 8vh;
+    }
+
+    .container-arma {
+        height: auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "weapontitle weapontitle"
+            "variants weaponimage"
+            "weapondetail weapondetail";
+        gap: 40px;
+    }
+
+    .variants {
+        padding-top: 0;
+    }
+
+    .variants div:not(.shell) {
+        width: 180px;
+        height: 50px;
+    }
+
+    .weapon-image img {
+        height: 25vh;
+    }
+
+    .weapon-detail {
+        padding: 30px;
+    }
+
+    footer {
+        padding: 40px;
+        gap: 30px;
+    }
 }
