@@ -1,0 +1,24 @@
+[
+    {
+        "revolver_piercer": "Piercer",
+        "conteudo_piercer": "Piercer vai aqui",
+        "imagem_piercer": "CSS/imagens/piercer.png",
+        "revolver_sharpshooter": "Sharpshooter",
+        "conteudo_sharpshooter": "Sharpshooter vai aqui",
+        "imagem_sharpshooter": "CSS/imagens/sharpshooter.png",
+        "revolver_marksman": "Marksman",
+        "conteudo_marksman": "Marksman vai aqui",
+        "imagem_marksman": "CSS/imagens/marksman.png"
+    },
+    {
+        "shotgun_coreeject": "Core Eject Shotgun",
+        "conteudo_coreeject": "CoreEject vai aqui",
+        "imagem_coreeject": "CSS/imagens/revolver.png",
+        "shotgun_pump": "Pump Shotgun",
+        "conteudo_pump": "Pump Shotgun vai aqui",
+        "imagem_pump": "CSS/imagens/v2.png",
+        "shotgun_sawed": "Shotgun Sawed On",
+        "conteudo_sawed": "Shotgun Sawed On vai aqui",
+        "imagem_sawed": "CSS/imagens/virtueicon.png"
+    }
+]
