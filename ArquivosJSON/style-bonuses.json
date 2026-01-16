@@ -1,0 +1,292 @@
+[
+    {
+        "id": 1,
+        "nome": "KILL",
+        "conteudo": "Matar um inimigo sem explodi-lo nem atingir seu ponto fraco."
+    },
+    {
+        "id": 2,
+        "nome": "DOUBLE KILL",
+        "conteudo": "Matar 2 inimigos dentro de meio segundo."
+    },
+    {
+        "id": 3,
+        "nome": "TRIPLE KILL",
+        "conteudo": "Matar 3 inimigos dentro de meio segundo."
+    },
+    {
+        "id": 4,
+        "nome": "MULTIKILL",
+        "conteudo": "Matar mais de 3 inimigos dentro de meio segundo."
+    },
+    {
+        "id": 5,
+        "nome": "FRIENDLY FIRE",
+        "conteudo": "Fazer um inimigo atingir ou matar outro, ou fazer um inimigo acertar outro (ou si mesmo) por meio de Parry."
+    },
+    {
+        "id": 6,
+        "nome": "EXPLODED",
+        "conteudo": "Matar um inimigo com uma explosão."
+    },
+    {
+        "id": 7,
+        "nome": "BIG KILL",
+        "conteudo": "Matar um inimigo grande (incluindo chefes)."
+    },
+    {
+        "id": 8,
+        "nome": "BIG FISTKILL",
+        "conteudo": "Matar um inimigo grande com um soco."
+    },
+    {
+        "id": 9,
+        "nome": "BIG HEADSHOT",
+        "conteudo": "Matar um inimigo grande com um tiro na cabeça."
+    },
+    {
+        "id": 10,
+        "nome": "GROUND SLAM",
+        "conteudo": "Matar um inimigo com um ground slam (impacto no chão)."
+    },
+    {
+        "id": 11,
+        "nome": "AIR SLAM",
+        "conteudo": "Matar um inimigo no ar com um ground slam."
+    },
+    {
+        "id": 12,
+        "nome": "HEADSHOT",
+        "conteudo": "Matar um inimigo com um tiro na cabeça."
+    },
+    {
+        "id": 13,
+        "nome": "HEADSHOT COMBO",
+        "conteudo": "Acertar múltiplos headshots consecutivos sem matar até o fim do combo."
+    },
+    {
+        "id": 14,
+        "nome": "LIMB HIT",
+        "conteudo": "Matar um inimigo atingindo um membro (não o torso)."
+    },
+    {
+        "id": 15,
+        "nome": "FINISHED OFF",
+        "conteudo": "Matar um inimigo que já estava queimando."
+    },
+    {
+        "id": 16,
+        "nome": "PARRY",
+        "conteudo": "Realizar um Parry com sucesso."
+    },
+    {
+        "id": 17,
+        "nome": "CRITICAL PUNCH",
+        "conteudo": "Matar um inimigo acertando seu ponto fraco com um soco."
+    },
+    {
+        "id": 18,
+        "nome": "AIRSHOT",
+        "conteudo": "Lançar um inimigo no ar e matá-lo."
+    },
+    {
+        "id": 19,
+        "nome": "FIREWORKS",
+        "conteudo": "Lançar e explodir um inimigo no ar."
+    },
+    {
+        "id": 20,
+        "nome": "DISRESPECT",
+        "conteudo": "Socar um inimigo pesado (sem matar)."
+    },
+    {
+        "id": 21,
+        "nome": "PROJECTILE BOOST",
+        "conteudo": "Parry de um projétil da Shotgun em um inimigo."
+    },
+    {
+        "id": 22,
+        "nome": "ARSENAL",
+        "conteudo": "Matar um inimigo com mais de uma arma diferente."
+    },
+    {
+        "id": 23,
+        "nome": "CHARGEBACK",
+        "conteudo": "Refletir um ataque hitscan inimigo em outro inimigo usando Coin."
+    },
+    {
+        "id": 24,
+        "nome": "RICOSHOT",
+        "conteudo": "Ricochetear um tiro da Revolver (ou minigun do Gutterman) em uma ou mais Coins."
+    },
+    {
+        "id": 25,
+        "nome": "ULTRA RICOSHOT",
+        "conteudo": "Encadear um projétil hitscan (não da Revolver) em uma ou mais Coins."
+    },
+    {
+        "id": 26,
+        "nome": "GROOVY",
+        "conteudo": "Matar um inimigo com o Sawed-on revving."
+    },
+    {
+        "id": 27,
+        "nome": "NO-NO",
+        "conteudo": "Matar um inimigo com a lâmina lançada do Sawed-on."
+    },
+    {
+        "id": 28,
+        "nome": "RE-NO-NO",
+        "conteudo": "Matar um inimigo com a lâmina lançada que foi parryada antes."
+    },
+    {
+        "id": 29,
+        "nome": "UNCHAINEDSAW",
+        "conteudo": "Matar um inimigo com a lâmina lançada que foi destacada."
+    },
+    {
+        "id": 30,
+        "nome": "JUGGLE",
+        "conteudo": "Acertar um inimigo no ar com explosivos repetidamente."
+    },
+    {
+        "id": 31,
+        "nome": "CONDUCTOR",
+        "conteudo": "Choque inimigo cheio de nails/magnets levando dano encadeado."
+    },
+    {
+        "id": 32,
+        "nome": "BIPOLAR",
+        "conteudo": "Matar um inimigo com nails entre 2 ou mais magnets."
+    },
+    {
+        "id": 33,
+        "nome": "ATTRAPTOR",
+        "conteudo": "Matar um inimigo com nails ao redor de um magnet."
+    },
+    {
+        "id": 34,
+        "nome": "NAILBOMBED [Hurt]",
+        "conteudo": "Ferir um inimigo com nails (não matar)."
+    },
+    {
+        "id": 35,
+        "nome": "NAILBOMBED [Killed]",
+        "conteudo": "Matar um inimigo com nails."
+    },
+    {
+        "id": 36,
+        "nome": "QUICKDRAW",
+        "conteudo": "Atirar em um inimigo imediatamente após trocar para Revolver ou Shotgun."
+    },
+    {
+        "id": 37,
+        "nome": "OVERKILL",
+        "conteudo": "Matar um inimigo pequeno com blast de Shotgun/Jackhammer próximo."
+    },
+    {
+        "id": 38,
+        "nome": "FISTFUL OF DOLLAR",
+        "conteudo": "Parry uma Coin em um inimigo."
+    },
+    {
+        "id": 39,
+        "nome": "CATAPULTED",
+        "conteudo": "Magnet jogar um inimigo cheio de nails ao chão ou em volume de queda."
+    },
+    {
+        "id": 40,
+        "nome": "CANNONBALLED",
+        "conteudo": "Matar um inimigo com projétil de Cannon ou parry combinado."
+    },
+    {
+        "id": 41,
+        "nome": "CANNONBOOST",
+        "conteudo": "Acertar inimigo com cannonball boostado."
+    },
+    {
+        "id": 42,
+        "nome": "DUNKED",
+        "conteudo": "Acertar ou matar inimigo golpeando cannonball em outro inimigo."
+    },
+    {
+        "id": 43,
+        "nome": "HALF OFF",
+        "conteudo": "Fatiar inimigo ao meio com Sawblade Launcher."
+    },
+    {
+        "id": 44,
+        "nome": "COMPRESSED",
+        "conteudo": "Corpse esmagado por Black Hole Cannon."
+    },
+    {
+        "id": 45,
+        "nome": "SCREWED",
+        "conteudo": "Matar inimigo com Screwdriver Railcannon preso."
+    },
+    {
+        "id": 46,
+        "nome": "CORKSCREW BLOW",
+        "conteudo": "Parry de Screwdriver preso em outro inimigo."
+    },
+    {
+        "id": 47,
+        "nome": "GIGA DRILL BREAK",
+        "conteudo": "Matar inimigo parryando Screwdriver preso."
+    },
+    {
+        "id": 48,
+        "nome": "BLUNT FORCE",
+        "conteudo": "Matar inimigo com impacto lento de Jackhammer."
+    },
+    {
+        "id": 49,
+        "nome": "HEAVY HITTER",
+        "conteudo": "Matar inimigo com impacto médio de Jackhammer."
+    },
+    {
+        "id": 50,
+        "nome": "BLASTING AWAY",
+        "conteudo": "Acertar inimigo com impacto rápido de Jackhammer."
+    },
+    {
+        "id": 51,
+        "nome": "FULL IMPACT",
+        "conteudo": "Matar inimigo com impacto completo de Jackhammer."
+    },
+    {
+        "id": 52,
+        "nome": "INSTAKILL",
+        "conteudo": "Atirar no tanque explosivo de Streetcleaner."
+    },
+    {
+        "id": 53,
+        "nome": "GUARD BREAK",
+        "conteudo": "Destruir escudo de Gutterman com arma/parry."
+    },
+    {
+        "id": 54,
+        "nome": "HOMERUN",
+        "conteudo": "Matar Drone, Virtue ou Mysterious Druid Knight após Whiplash."
+    },
+    {
+        "id": 55,
+        "nome": "MAURICED",
+        "conteudo": "Matar inimigo esmagado pela corpse de Malicious Face."
+    },
+    {
+        "id": 56,
+        "nome": "PANCAKED",
+        "conteudo": "Matar inimigo esmagado pela corpse de Gutterman."
+    },
+    {
+        "id": 57,
+        "nome": "SLIPPED",
+        "conteudo": "Fazer Guttertank matar a si mesmo ao falhar ataque."
+    },
+    {
+        "id": 58,
+        "nome": "ICONOCLASM",
+        "conteudo": "Destruir um Idol ou Deathcatcher."
+    }
+]

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultrawiki</title>
+    <link rel="stylesheet" href="CSS/style-meter.css">
+    <link rel="stylesheet" href="CSS/modo-dislexico.css">
+</head>
+<body>
+        <header>
+            <h1>Ultra<span style="color:white;">Wiki</span></h1>
+            <button type="button" id="modo_dislexico_toggle">Modo Disléxico: <span id="on_or_off"></span></button>
+        </header>
+
+        <div id="botões">
+            <a href="index.html" class="card-link">
+                <div class="card1">
+                    <div class="card2">
+                        <p>Home</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="inimigos.html" class="card-link">
+                <div class="card1">
+                    <div class="card2">
+                        <p>Enemies</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="style-meter.html" class="card-link">
+                <div class="card1">
+                    <div class="card2">
+                        <p>Style Meter</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="arsenal.html" class="card-link">
+                <div class="card1">
+                    <div class="card2">
+                        <p>Arsenal</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        
+        <h1 style="width: 100%; text-align: center;">RANKING</h1>
+        <div id="ranking">
+            <div id="ranking-info">
+                <p>Em Ultrakill, ao fim de qualquer nível é dado um ranking para o jogador baseado em sua performance ao terminar o nível levando em consideração quatro elementos: O <b>tempo</b> gasto para terminar o nível, a quantidade de <b>Kills</b> (inimigos mortos), e <b>placar</b>, esse último é unicamente afetado pelo estilo, e a quantidade de mortes do jogador. Ao lado estão os possíveis rankings </p>
+            </div>
+            <div id="ranking-table">
+                <table border="1" cellpadding="6" cellspacing="0">
+                  <thead>
+                    <tr>
+                      <th>Rank</th>
+                      <th>Points</th>
+                      <th>Rank Points</th>
+                      <th>Pontos Agregados</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>D</td>
+                      <td>500P</td>
+                      <td>1</td>
+                      <td>4 ou menos</td>
+                    </tr>
+                    <tr>
+                      <td>C</td>
+                      <td>1,000P</td>
+                      <td>2</td>
+                      <td>5–7</td>
+                    </tr>
+                    <tr>
+                      <td>B</td>
+                      <td>1,500P</td>
+                      <td>3</td>
+                      <td>8–10</td>
+                    </tr>
+                    <tr>
+                      <td>A</td>
+                      <td>2,000P</td>
+                      <td>4</td>
+                      <td>11–13</td>
+                    </tr>
+                    <tr>
+                      <td>S</td>
+                      <td>2,500P</td>
+                      <td>5</td>
+                      <td>14; 14–15 (Major Assists ON)</td>
+                    </tr>
+                    <tr>
+                      <td>P</td>
+                      <td>N/A</td>
+                      <td>N/A</td>
+                      <td>15 (Major Assists OFF)</td>
+                    </tr>
+                    <tr>
+                      <td>–</td>
+                      <td>N/A</td>
+                      <td>N/A</td>
+                      <td>0 (Cheats Ativados)</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div id="o-que-é-stylemeter">
+            <img id="o-que-é-stylemeter-image" src="CSS/imagens/style-meter.png" alt="medidor de estilo ultrakill">
+            <p id="o-que-é-stylemeter-content">
+                O <span style="color:yellow;">Medidor de Estilo</span> é um meio do jogo se manter a par do quão estiloso o jogador é quando mata inimigos. Bônus de estilo são obtidos ao matar inimigos de modos específicos, dando uma quantidade de pontos de estilo, afetado por multiplicadores. Cada bônus é mostrado no medidor de estilo, um painel à direita da tela do jogador (como a imagem ao lado), junto do multiplicador. Conforme o tempo passa sem matar inimigos, o multiplicador decaí, tornando o movimento rápido necessário para o acúmulo de pontos.
+            </p>
+        </div>
+
+        <div class="shell" id="style-bonuses-box">
+            <input type="text" id="barra-de-pesquisa" placeholder="Procure por um modificador de estilo específico...">
+
+            <div id="style-bonuses" class="custom-scrollbar">
+                <div class="stylebonus">
+                    <div class="name">
+                        <h2>Lorem Ipsum</h2>
+                    </div>
+                    <div class="info">
+                        Lorem Ipsum
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        
+        <footer>
+            <p>Este site é uma obra feita por fãs, para fãs, desenvolvido por um estudante do IFPB – Campus Cajazeiras. Ele não possui qualquer afiliação oficial com a New Blood Interactive ou com os desenvolvedores de ULTRAKILL. Todo o conteúdo aqui apresentado tem caráter informativo e celebrativo, funcionando como uma wiki criada pela comunidade. ULTRAKILL e seus respectivos elementos são marcas registradas de seus criadores.</p>
+            <p>This site is a fan-made project, created by fans for fans, developed by a student from IFPB – Campus Cajazeiras. It is not officially affiliated with New Blood Interactive or the developers of ULTRAKILL. All content presented here is for informational and celebratory purposes, serving as a community-created wiki. ULTRAKILL and its respective elements are trademarks of their creators.</p>
+        </footer>
+        <script src="Scripts/modo-disléxico.js">
+        </script><script src="Scripts/style-meter.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+/*--------------------------- Fontes usadas ---------------------------*/
+
+@font-face {
+    font-family: Ultrakill;
+    src: url(VCR_OSD_MONO_1.001.ttf);
+}
+
+@font-face {
+    font-family: OpenDyslexic_Regular;
+    src: url(OpenDyslexic-Regular.otf);
+}
+
+/*---------------------------------------------------------------------*/
+
+:root {
+    --fonte: Ultrakill;
+}
+
+body{
+    font-family: var(--fonte);
+}
+
+#modo_dislexico_toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 8vw;
+    aspect-ratio: 6 / 2;
+    border: 3px solid white;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+    z-index: 2;
+}

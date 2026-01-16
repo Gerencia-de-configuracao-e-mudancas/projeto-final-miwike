@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultrawiki</title>
+    <link rel="stylesheet" href="CSS/inimigos-style.css">
+    <link rel="stylesheet" href="CSS/modo-dislexico.css">
+</head>
+<body>
+        <header>
+            <h1>Ultra<span style="color:white;">Wiki</span></h1>
+            <button type="button" id="modo_dislexico_toggle">Modo Disléxico: <span id="on_or_off"></span></button>
+        </header>
+
+        <div id="botões">
+            <a href="index.html" class="card-link">
+                <div class="card1">
+                    <div class="card2">
+                        <p>Home</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="inimigos.html" class="card-link">
+                <div class="card1">
+                    <div class="card2">
+                        <p>Enemies</p>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="style-meter.html" class="card-link">
+                <div class="card1">
+                    <div class="card2">
+                        <p>Style Meter</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="arsenal.html" class="card-link">
+                <div class="card1">
+                    <div class="card2">
+                        <p>Arsenal</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="shell">
+            <div id="opcoesconfig">
+                <select id="opcoes">
+                    <option value="" selected disabled>
+                        Filtrar por...
+                    </option>
+                    <option>Todos</option>
+                    <option>Husk</option>
+                    <option>Demônio</option>
+                    <option>Anjo</option>
+                    <option>Máquina</option>
+                    <option>Boss</option>
+                    <option>Outro</option>
+                </select>
+            </div>
+            <!-- mostrar os inimigos pra escolher -->
+            <div id="inimigos" class="custom-scrollbar">
+            </div>
+        </div>
+
+        
+        <div class="shell">
+            <!-- escrever sobre os inimigos -->
+            <div id="detalhes-inimigos" class="custom-scrollbar">
+            </div>
+        </div>
+
+
+
+        <footer>
+            <p>Este site é uma obra feita por fãs, para fãs, desenvolvido por um estudante do IFPB – Campus Cajazeiras. Ele não possui qualquer afiliação oficial com a New Blood Interactive ou com os desenvolvedores de ULTRAKILL. Todo o conteúdo aqui apresentado tem caráter informativo e celebrativo, funcionando como uma wiki criada pela comunidade. ULTRAKILL e seus respectivos elementos são marcas registradas de seus criadores.</p>
+            <p>This site is a fan-made project, created by fans for fans, developed by a student from IFPB – Campus Cajazeiras. It is not officially affiliated with New Blood Interactive or the developers of ULTRAKILL. All content presented here is for informational and celebratory purposes, serving as a community-created wiki. ULTRAKILL and its respective elements are trademarks of their creators.</p>
+        </footer>
+        <script src="Scripts/enemies-load.js"></script>
+        <script src="Scripts/modo-disléxico.js"></script>
+</body>
+</html>

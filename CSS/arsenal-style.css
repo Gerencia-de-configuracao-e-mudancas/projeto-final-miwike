@@ -1,0 +1,295 @@
+/*--------------------------- Fontes usadas ---------------------------*/
+
+@font-face {
+    font-family: Ultrakill;
+    src: url(VCR_OSD_MONO_1.001.ttf);
+}
+
+/*---------------------------------------------------------------------*/
+
+body {
+    background-color: rgb(8, 8, 8);
+    padding: 0;
+    margin: 0;
+    font-family: Ultrakill;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:50px;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 35vh;
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url(imagens/ultrakillgameplay.gif);
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px) brightness(0.5);
+    transform: scale(1.1);
+    z-index: 0;
+}
+
+header h1 {
+    position: relative;
+    font-size: 10vh;
+    color: red;
+    z-index: 1;
+}
+
+#botões {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    gap: 60px;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 100%;
+}
+
+.card-link {
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
+
+.card1 {
+    height: 50px;
+    width: 180px;
+    border-radius: 10px;
+    outline: 3px solid white;
+    outline-offset: 7px;
+}
+
+.card2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 180px;
+    border-radius: 10px;
+    outline: 3px solid white;
+}
+
+/* Facilita o efeito de vazio nas bordas criando uma outline */
+.shell {
+    outline: 3px solid white;
+    outline-offset: 7px;
+}
+
+.rounding-border {
+    border-radius: 10px;
+}
+
+.container-arma {
+    margin-top: 140px;
+    display: grid;
+    width: 90%;
+    height: 70vh;
+    grid-template-columns: 1fr 2fr auto;
+    grid-template-rows: 1fr 8fr 1.5fr;
+    grid-template-areas: 
+    "variants weapontitle weaponimage"
+    "variants weapondetail weaponimage"
+    "alternat weapondetail weaponimage";
+}
+
+.variants {
+    grid-area: variants;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 9vh;
+}
+
+.variants div:not(.shell) {
+    width: 20vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: 3px solid white;
+    border-radius: 10px;
+}
+
+.weapon-title {
+    grid-area: weapontitle;
+    text-align: center;
+    vertical-align: center;
+}
+
+.weapon-detail {
+    grid-area: weapondetail;
+    padding: 40px;
+    overflow-y: scroll;
+}
+
+.weapon-detail::-webkit-scrollbar {
+  width: 5px;
+}
+
+.weapon-detail::-webkit-scrollbar-track {
+  background: transparent; /* remove a caixa */
+}
+
+.weapon-detail::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+
+.weapon-image {
+    grid-area: weaponimage;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.weapon-image img {
+    height: 30vh;
+}
+
+footer {
+    margin-top: 10vh;
+    height: auto;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgb(14, 14, 14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+}
+
+footer p {
+    filter: opacity(0.5);
+}
+
+@media (max-width: 600px) {
+
+    .weapon-detail {
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    header {
+        height: 25vh;
+    }
+
+    header h1 {
+        font-size: 6vh;
+        text-align: center;
+    }
+
+    #botões {
+        gap: 25px;
+        margin: 5vh 0;
+    }
+
+    .container-arma {
+        margin-top: 60px;
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "weapontitle"
+            "variants"
+            "weaponimage"
+            "weapondetail";
+        gap: 30px;
+    }
+
+    .variants {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 0;
+    }
+
+    .variants div:not(.shell) {
+        width: 140px;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .weapon-title h1 {
+        font-size: 24px;
+    }
+
+    .weapon-image img {
+        height: auto;
+        max-width: 80%;
+    }
+
+    .weapon-detail {
+        padding: 20px;
+        max-height: none;
+        overflow: visible;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 30px 20px;
+        gap: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    header h1 {
+        font-size: 8vh;
+    }
+
+    .container-arma {
+        height: auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "weapontitle weapontitle"
+            "variants weaponimage"
+            "weapondetail weapondetail";
+        gap: 40px;
+    }
+
+    .variants {
+        padding-top: 0;
+    }
+
+    .variants div:not(.shell) {
+        width: 180px;
+        height: 50px;
+    }
+
+    .weapon-image img {
+        height: 25vh;
+    }
+
+    .weapon-detail {
+        padding: 30px;
+    }
+
+    footer {
+        padding: 40px;
+        gap: 30px;
+    }
+}
