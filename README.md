@@ -4,3 +4,4 @@
 # UltraWiki
 
 Um site dedicado a coletar e informar sobre o vídeo-jogo Ultrakill, desenvolvido por Hakita e publicado por NewBlood.
+O site conta com informações sobre o arsenal do jogador, inimigos, bônus de estilo e como a classificação de ranking funciona.
