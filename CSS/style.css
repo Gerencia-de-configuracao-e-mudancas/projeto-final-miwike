@@ -68,22 +68,24 @@ header h1 {
     color: inherit;
 }
 
-.card1 {
+.nav-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 50px;
     width: 180px;
     border-radius: 10px;
     outline: 3px solid white;
     outline-offset: 7px;
+    box-shadow: inset 0 0 0 3px white; /* recria a “dupla borda” do layout original */
+    background: transparent;
+    transition: outline-offset 120ms ease, transform 120ms ease;
 }
 
-.card2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    width: 180px;
-    border-radius: 10px;
-    outline: 3px solid white;
+.nav-card:hover,
+.nav-card:focus-visible {
+    outline-offset: 10px;
+    transform: translateY(-2px);
 }
 
 
@@ -188,8 +190,7 @@ footer p {
         margin: 5vh 0;
     }
 
-    .card1,
-    .card2 {
+    .nav-card {
         width: 160px;
         height: 45px;
     }
