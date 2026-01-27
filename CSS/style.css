@@ -109,7 +109,7 @@ footer p {
 }
 
 .content-banner {
-    height: 50vh;
+    height: auto;
     outline: 3px solid white;
     outline-offset: 5px;
     border-radius: 20px;
@@ -118,7 +118,7 @@ footer p {
 }
 
 .banner-content {
-    height: 100%;
+    height: auto;
     width: 100%;
     outline: 3px solid white;
     border-radius: 20px;
