@@ -5,12 +5,12 @@
     display: grid;
     width: 90%;
     height: 70vh;
-    grid-template-columns: 1fr 2fr auto;
+    grid-template-columns: auto 2fr auto;
     grid-template-rows: 1fr 8fr 1.5fr;
     grid-template-areas: 
     "variants weapontitle weaponimage"
     "variants weapondetail weaponimage"
-    "alternat weapondetail weaponimage";
+    "variants weapondetail weaponimage";
 }
 
 .variants {
@@ -22,6 +22,7 @@
     flex-direction: column;
     gap: 30px;
     padding-top: 9vh;
+    width: auto;
 }
 
 .variants div:not(.shell) {
@@ -44,6 +45,7 @@
     grid-area: weapondetail;
     padding: 40px;
     overflow-y: scroll;
+    width: 40vw;
 }
 
 .weapon-detail::-webkit-scrollbar {
@@ -131,6 +133,7 @@
         padding: 20px;
         max-height: none;
         overflow: visible;
+        width: auto;
     }
 }
 
@@ -161,5 +164,6 @@
 
     .weapon-detail {
         padding: 30px;
+        width: auto;
     }
 }

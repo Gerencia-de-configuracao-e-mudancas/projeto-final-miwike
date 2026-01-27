@@ -7,6 +7,23 @@
 
 /*---------------------------------------------------------------------*/
 
+/*------------------------------ Animações ------------------------------*/
+
+.pop-efeito {
+  transition: 
+    transform 0.2s ease
+}
+
+.pop-efeito:hover {
+  transform: scale(1.05);
+}
+
+.pop-efeito:active {
+  transform: scale(0.95);
+}
+
+/*---------------------------------------------------------------------*/
+
 body {
     background-color: rgb(8, 8, 8);
     padding: 0;
